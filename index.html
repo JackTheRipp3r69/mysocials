@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Rubik&family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&family=Roboto&family=Rubik&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@300&family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
+    
 <link rel="icon" href="pic.png">
 </head>
 
 
-<body style="background-image: url(bg.png);"></body>
+<body style="background-image: url(bg.png); background-attachment: fixed;"></body>
     <body style="background-color: antiquewhite;">
        
 
 </body>
 
+<style>
+    #intro { font-family: Ubuntu;}
+    #head { font-family: Roboto Condensed; }
+    #Socials { font-family: Rubik;}
+    .accounts { font-family: 'Oxygen';}
+    #School {font-family: Asap;}
+#Page {font-family: Roboto;}
+#friends {font-family: Ubuntu;}
+.bb {font-family: Ubuntu;}
+#cc {font-family: sans-serif ;}
+#rr {font-family: sans-serif ;}
 
+
+</style>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jack's Personal Website</title>
-<center><h1>Jack's Personal Website</h1></center>
-<center><h2>I am a 13-year-old student learning programming</h2></center>
+<center><h1 id="head">Jack's Personal Website</h1></center>
+
+<center><h2 id="intro">I am a 13-year-old student learning programming</h2></center>
+
+
 <br>
 
 <body>
@@ -41,7 +64,7 @@
 <hr>
 <body>
     <center>
-        <h1>My Socials</h1>
+        <h1 id="Socials">My Socials</h1>
         <h2> 
            
             <br>
@@ -50,7 +73,7 @@
                     <a href="https://cdn.discordapp.com/attachments/1115167828966907914/1115206828406624306/image.png" target="_blank" title="My Discord!"><img src="dc.png" style="height:70px;"></a>
                 </th>
                 <th>
-                <h2>⬅Discord</h2>
+                <h2 class="accounts">⬅ Discord</h2>
                 </th>
         </tr></tbody></table>
         <table>
@@ -59,7 +82,7 @@
                     <a href="https://www.youtube.com/@Jacj69" target="_blank" title="My Youtube!"><img src="yt.png" style="height: 60px;"></a>
                 </th>
                 <th>
-                    <h2>⬅ Youtube</h2>
+                    <h2 class="accounts">⬅ Youtube</h2>
                 </th>
         </tbody></table>
         <tbody><table><tr>
@@ -67,7 +90,7 @@
                 <a href="https://open.spotify.com/user/31t5xlp26dp7d5kpzcqnhf7rapgq?si=ce7185d232784f6b" target="_blank" title="My Spotify!"><img src="spotify.png" style="height: 65px;"></a>
             </th>
             <th>
-            <h2>⬅Spotify</h2>
+            <h2 class="accounts">⬅ Spotify</h2>
             </th>
     </tr></tbody></table>
     <tbody><table><tr>
@@ -75,7 +98,7 @@
             <a href="https://www.reddit.com/user/Jack_The_Ripp3r_69" target="_blank" title="My Reddit!"><img src="reddit.png" style="height: 70px;"></a>
         </th>
         <th>
-        <h2>⬅Reddit</h2>
+        <h2 class="accounts">⬅ Reddit</h2>
         </th>
 </tr></tbody></table>
 <tbody><table><tr>
@@ -83,7 +106,7 @@
         <a href="https://www.twitch.tv/jacktheripp3r_69" target="_blank" title="My Twitch!"><img src="tt.png" style="height: 65px;"></a>
     </th>
     <th>
-    <h2>⬅Twitch</h2>
+    <h2 class="accounts">⬅ Twitch</h2>
     </th>
 </tr></tbody></table>
 <br>
@@ -91,13 +114,14 @@
     <table align="center">
         <tbody><tr>
             <th>
-                <a href="https://www.facebook.com/GETC-Global-Education-Training-Center-919310218164595" target="_blank" title="GLOBAL Facebook Page"><img src="logo2.png" style="height: 125px;"></a>
+                <a href="https://www.facebook.com/GETC-Global-Education-Training-Center-919310218164595" target="_blank" title="GLOBAL Facebook Page"><img src="logo2.png" style="height: 180px;"></a>
             </th>
             <th>
                 <a href="https://www.facebook.com/GETC-Global-Education-Training-Center-919310218164595" target="_blank" title="GLOBAL Facebook Page">
-                    <h3 style="color: black" ;="">Currently studying at Global Smart international School
+                    <h3 style="color: black; " id="School">
+                        Currently studying at <br> Global Smart international School
                         <br> Pre IGCSE</h3>
-                </a>
+                  </a>
             </th>
         </tr>
     </tbody></table>
@@ -105,18 +129,30 @@
 </body>
 
 <br>
-<a href="new.html">
-<button style="background-color: rgb(229, 217, 149);border-radius: 5px; width: 150px; height: 50px;"> <b><h3>Next Page ➡</h3></b> </button> <br>
-</a>
+<br>
+<link rel="stylesheet" href="jack.css">
+
+<a href="new.html"> <button class="button4" style="vertical-align:middle;border-radius: 10px;"><span id="Page"><B>Next Page</B></span></button></a><br>
 
 <br>
 <hr>
 
 
-    <h3><p>Friends - <a href="https://xebryanx.github.io/jv/" target="_blank" title="Bryan's Website">Bryan, </a><a href="https://jason23791.github.io/handsome/" target="_blank"title="Jason's Website">Jason, <a href="https://ivandev121.github.io/Ivanxyashiko.github.io/" target="_blank"title="Ivan's Website"> Ivan</a></p></h3>
-        <h3 style="color: black">Jack ©2023</h3>
+<body>
+    <link rel="Friends" href="jack.css">
+    <center>
+        <h2 class="colr" id="friends">Friends' websites:</h2>
+        <a href="https://jason23791.github.io/handsome" target="_blank"> <button class="button1" style="vertical-align:middle;border-radius: 10px;"><span class="bb">Jason</span></button></a><br>
+        <a href="https://xebryanx.github.io/jv/" target="_blank"> <button class="button2" style="vertical-align:middle;border-radius: 10px;"><span class="bb">Bryan</span></button></a><br>
+        <a href="https://ivandev121.github.io/Ivanxyashiko.github.io/" target="_blank"> <button class="button3" style="vertical-align:middle;border-radius: 10px;"><span class="bb">Ivann</span></button></a><br>
 
-       <h4><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank" title="Totally not a Rick Roll"><h3>Toally not a Rick Roll</h4></a>
+    </body>
+
+</center>
+<br>
+        <h3 style="color: black" id="cc">Jack ©2023</h3>
+
+       <h4><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank" title="Totally not a Rick Roll"><h3 id="rr" style="color: black;">Toally not a Rick Roll</h4></a>
     </center>
     <hr>
 
